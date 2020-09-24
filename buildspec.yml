@@ -15,7 +15,7 @@ phases:
 artifacts:
   files:
     - target/aws-sdk.tar.gz
-    - scripts/pre-deploy.sh
+    - scripts/deploy.sh
     - appspec.yml
   #discard-paths: yes
 cache:
