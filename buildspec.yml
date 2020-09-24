@@ -2,9 +2,11 @@ version: 0.2
 phases:
   build:
     commands:
-      - pwd
+      - cd $CODEBUILD_SRC_DIR_Source_Output_Core
       - ls
-      - echo Build started on `date`
+      - mvn clean install
+      - cd $CODEBUILD_SRC_DIR
+      - ls
       - mvn clean install
   post_build:
     commands:
