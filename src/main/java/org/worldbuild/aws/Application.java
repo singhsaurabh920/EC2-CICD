@@ -70,7 +70,7 @@ public class Application implements CommandLineRunner  {
 	}
 
 	public void doJob() {
-		log.info("Current Time ===> {}",new Date());
+		log.info("Current DATE & TIME ===> {}",new Date());
 	}
 
 }
