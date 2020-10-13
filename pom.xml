@@ -11,9 +11,9 @@
 	</parent>
 
 	<groupId>org.worldbuild.project</groupId>
-	<artifactId>wb-aws-sdk-project</artifactId>
+	<artifactId>wb-ec2-cicd-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>wb-aws-sdk-project</name>
+	<name>wb-ec2-cicd-project</name>
 	<description>AWS cloud sdk</description>
 
 	<properties>
