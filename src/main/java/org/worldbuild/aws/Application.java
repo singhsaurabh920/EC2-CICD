@@ -31,9 +31,8 @@ import java.util.concurrent.TimeUnit;
 public class Application implements CommandLineRunner  {
 	private static final String SENDER = "xyz@gmail.com";
 	private static final String RECIPIENT = "abc@gmail.com";
-	//
 	private static final String SUBJECT = "Greetings From ISB";
-	private static final String ATTACHMENT = "/home/insight/Downloads/PaymentReceipt.pdf";
+	private static final String ATTACHMENT = "/home/insight/Downloads/invoice.pdf";
 	private static final String TEXT_CONTENT = "Please see the attached file for a list of customers to contact.";
 
 	@Autowired
